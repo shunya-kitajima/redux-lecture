@@ -1,6 +1,6 @@
 import { SELL_MEAT } from "./actionTypes";
 
-const reducerMeet = (state = [], action) => {
+const reducerMeat = (state = [], action) => {
   switch (action.type) {
     case SELL_MEAT:
       return {
@@ -12,4 +12,4 @@ const reducerMeet = (state = [], action) => {
   }
 };
 
-export default reducerMeet;
+export default reducerMeat;
